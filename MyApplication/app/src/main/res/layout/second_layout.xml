@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lhfs染色都我工农if大四平均提高热捧到底是一个突破就是地热管他     are突破键盘热爱我就特图个安稳你"
+        android:focusableInTouchMode="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:singleLine="true"
+
+        android:textSize="20sp"
+        android:textColor="#df1a1a"/>
+
+</LinearLayout>

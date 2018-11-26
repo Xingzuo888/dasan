@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.viewpager.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/tab"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </android.support.v4.view.PagerTabStrip>
+        <!--二选一-->
+        <!--<android.support.v4.view.PagerTitleStrip-->
+            <!--android:id="@+id/title"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--</android.support.v4.view.PagerTitleStrip>-->
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
